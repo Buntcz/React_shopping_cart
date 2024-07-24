@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: rgb(127, 161, 255);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.linkShop, .linkCart {
+    position: relative;
+    left: 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    transition: transform 500ms ease, color 500ms ease;
+}
+
+.linkShop:hover, .linkCart:hover {
+    color: red;
+    transform: scale(120%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
