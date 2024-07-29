@@ -13,39 +13,39 @@ const products = [
     },
     {
         id: 3,
-        productName: "Iphone",
+        productName: "Camera",
         productImage: "./products/3.png",
-        productPrice: 999
+        productPrice: 699
     },
     {
         id: 4,
-        productName: "Iphone",
+        productName: "jacket",
         productImage: "./products/4.png",
-        productPrice: 999
+        productPrice: 79.99
     },
     {
         id: 5,
-        productName: "Iphone",
+        productName: "LED Lights",
         productImage: "./products/5.png",
-        productPrice: 999
+        productPrice: 29.99
     },
     {
         id: 6,
-        productName: "Iphone",
+        productName: "Sweather",
         productImage: "./products/6.webp",
-        productPrice: 999
+        productPrice: 129
     },
     {
         id: 7,
-        productName: "Iphone",
+        productName: "Polo Shirt",
         productImage: "./products/7.webp",
-        productPrice: 999
+        productPrice: 89.99
     },
     {
         id: 8,
-        productName: "Iphone",
+        productName: "Hat",
         productImage: "./products/8.webp",
-        productPrice: 999
+        productPrice: 49.99
     }
 ]
 

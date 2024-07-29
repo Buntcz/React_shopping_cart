@@ -64,3 +64,38 @@ body {
 .productCard img {
     width: 400px;
 }
+
+.cart {
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartItemCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1300px;
+    height: 120px;
+    border: 1px solid black;
+    gap: 1rem;
+}
+
+.cartItemCard img {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.cartItemCard input {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.cartItemCard button {
+    height: 20px;
+    width: 20px;
+}

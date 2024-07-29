@@ -2,9 +2,11 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import { NavBar } from './components/Navbar'
 import { Cart } from './pages/cart/Cart'
 import { Shop } from './pages/shop/Shop'
+import { ShopContextProvider } from './Context/shop-context'
 
 export default function App() {
   return (
+    <ShopContextProvider>
     <div className='App'>
       <Router>
      <NavBar />
@@ -15,5 +17,6 @@ export default function App() {
 
       </Router>
     </div>
+    </ShopContextProvider>
   )
 }
